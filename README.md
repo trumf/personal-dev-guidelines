@@ -110,3 +110,4 @@ Update `YOUR_USERNAME` in `bin/init-project.sh` default URL or pass the URL as t
 ## Filling in content
 
 Guideline markdown files currently use `TODO` stubs. Replace them with your own principles over time. Keep each file focused and under ~150 lines so Cursor rules stay effective.
+# personal-dev-guidelines
