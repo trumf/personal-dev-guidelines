@@ -9,6 +9,7 @@
 ## UI principles
 
 - TODO: Use consistent spacing, type scale, and component behavior.
+- TODO: Set up a project styles.css file with spacing, color, and typography rules
 - TODO: Avoid one-off visual decisions unless they become tokens or reusable patterns.
 - TODO: Design empty, loading, error, and success states early.
 
