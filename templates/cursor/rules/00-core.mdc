@@ -1,0 +1,15 @@
+---
+description: Core personal development principles (always loaded)
+alwaysApply: true
+---
+
+# Core principles
+
+- Prefer simple, understandable architecture over clever abstractions.
+- Explain tradeoffs before making large structural changes.
+- Keep project-specific decisions in the project repo, not in the shared guideline repo.
+- When uncertain, propose the smallest reversible step first.
+- Make state explicit; avoid hidden side effects.
+- Prefer focused diffs and incremental changes over large rewrites.
+
+Project-specific stack, goals, and constraints live in `99-project-context.mdc`.

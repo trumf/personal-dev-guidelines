@@ -1,0 +1,8 @@
+---
+description: Apply when editing README files, writing decision notes, or updating project documentation.
+globs:
+  - "**/README.md"
+  - "**/docs/**/*.md"
+---
+
+@.guidelines/documentation.md
