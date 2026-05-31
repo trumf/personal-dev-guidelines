@@ -10,7 +10,7 @@
 #
 set -euo pipefail
 
-REPO_URL="${1:-git@github.com:YOUR_USERNAME/personal-dev-guidelines.git}"
+REPO_URL="${1:-https://github.com/trumf/personal-dev-guidelines.git}"
 SUBMODULE_PATH=".guidelines"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 GUIDELINES_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"

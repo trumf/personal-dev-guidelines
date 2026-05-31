@@ -12,16 +12,16 @@ Central repository for personal design, development, and architecture guidelines
 
 ## Quick start (new project)
 
-From your project root (replace `YOUR_USERNAME` with your GitHub user):
+From your project root:
 
 ```bash
-bash /path/to/personal-dev-guidelines/bin/init-project.sh git@github.com:YOUR_USERNAME/personal-dev-guidelines.git
+bash /path/to/personal-dev-guidelines/bin/init-project.sh https://github.com/trumf/personal-dev-guidelines.git
 ```
 
 Or after cloning this repo locally:
 
 ```bash
-bash ../personal-dev-guidelines/bin/init-project.sh git@github.com:YOUR_USERNAME/personal-dev-guidelines.git
+bash ../personal-dev-guidelines/bin/init-project.sh https://github.com/trumf/personal-dev-guidelines.git
 ```
 
 Then edit `.cursor/rules/99-project-context.mdc` and commit:
@@ -33,7 +33,7 @@ git commit -m "Add shared development guidelines"
 ## Manual setup
 
 ```bash
-git submodule add git@github.com:YOUR_USERNAME/personal-dev-guidelines.git .guidelines
+git submodule add https://github.com/trumf/personal-dev-guidelines.git .guidelines
 mkdir -p .cursor/rules
 cp .guidelines/templates/cursor/rules/*.mdc .cursor/rules/
 # Edit 99-project-context.mdc for this project
@@ -99,13 +99,13 @@ Submodule pins a specific commit—projects do **not** auto-update until you run
 ## Publishing this repo
 
 ```bash
-git remote add origin git@github.com:YOUR_USERNAME/personal-dev-guidelines.git
+git remote add origin https://github.com/trumf/personal-dev-guidelines.git
 git add -A
 git commit -m "Initial personal dev guidelines"
 git push -u origin main
 ```
 
-Update `YOUR_USERNAME` in `bin/init-project.sh` default URL or pass the URL as the first argument when bootstrapping projects.
+The bootstrap script defaults to the same HTTPS URL; pass a different URL as the first argument to override.
 
 ## Filling in content
 
